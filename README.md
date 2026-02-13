@@ -15,22 +15,20 @@ The MPQ stores elements with:
 
 The queue always keeps the highest priority element at the root while allowing removal of any element using its label.
 
-This design is similar to **indexed priority queues** used in:
-
-* Dijkstra’s algorithm
-* task scheduling systems
-* simulation engines
-* event-driven systems
-
 ---
 
 ## Features
 
 ✔ Max-heap based priority queue
+
 ✔ O(log n) insertion
+
 ✔ O(1) maximum retrieval
+
 ✔ O(log n) removal by label
+
 ✔ Location mapping for fast access
+
 ✔ Template-based generic implementation
 
 ---
